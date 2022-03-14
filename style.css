@@ -1,0 +1,103 @@
+*{margin: 0;
+    padding: 0;}
+    .main{display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+            background-image: linear-gradient(#e66465, #9198e5);  
+             height:100vh;
+        }
+        .heading{
+            margin-top: 70px;
+            margin-bottom: 50px;
+            /* margin-left: 540px; */
+            color: white;
+            font-size: 70px;
+            /* font-family: 'Bellefair', serif; */
+            }  
+        
+    .img{
+         border-radius: 60%;
+         /* margin-left: 580px; */
+         /* margin-top: 50px; */
+        } 
+        
+        
+        .text{
+            /* padding-top: 25px; */
+            font-size: 35px;
+            text-align: center;
+            font-family: 'Bellefair', serif;
+        }
+        .acounts {
+            /* padding-left: 200px; */
+            /* padding-right: 200px; */
+            /* margin-left: 300px; */
+            /* margin-top: 14px; */
+            height: 50px;
+            width: 50%;
+            border-radius: 5px;
+            color: white;
+            border: 2px solid white;
+            margin: 25px;
+            text-align: center;
+
+         }
+
+.acounts:hover{background-color: white;color: black;}
+
+
+
+.img:hover{border-radius: 0px;
+           height: 300px;
+           width: 300px;  
+           transition: 1s;
+}
+.nav-main{display: flex;
+    background-color:lightblue;
+    flex-direction:row;
+    justify-content: space-between;
+    height: 20px;
+
+
+}
+.nav-left{
+    display: flex;
+}
+.nav-item {
+    font-size: 20px;
+    margin: 10px;
+    margin-top: 15px;
+}
+/* @media only screen and (max-width: 600px) {
+     .heading{
+        margin-bottom: 10px;
+        font-size: 40px;
+        margin-top: 0px;
+    }
+    
+    .img{width: 75px;
+        height: 75px;
+        border-radius: 60%;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+    .text{
+        font-size:30px ;
+        /* padding-bottom: 5px; */
+    /* }
+    .acounts{
+        width: 80%;
+        border-radius: 5px;
+        margin: 15px;
+    } 
+      
+    
+  } */
+
+ 
+ 
+  
+
+ */
